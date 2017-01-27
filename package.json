@@ -1,0 +1,23 @@
+{
+  "name": "ng-deja-vu-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.module.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seatonm123/ng-deja-vu-client.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seatonm123/ng-deja-vu-client/issues"
+  },
+  "homepage": "https://github.com/seatonm123/ng-deja-vu-client#readme",
+  "dependencies": {
+    "angular": "^1.6.1"
+  }
+}
