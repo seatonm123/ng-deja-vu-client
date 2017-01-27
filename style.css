@@ -22,3 +22,9 @@ a {
 img {
   max-width: 25em;
 }
+
+#sidebyside {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
