@@ -14,3 +14,7 @@ a {
   height: 7vh;
   margin-left: 42%;
 }
+
+#this-vid {
+  display: none;
+}
