@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Deja Vu Fromage!</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-+ENW/yibaokMnme+vBLnHMphUYxHs34h9lpdbSLuAwGkOKFRl4C34WkjazBtb7eT" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0/angular.js"></script>
     <script src="https://unpkg.com/angular-ui-router@1.0.0-beta.3/release/angular-ui-router.js"></script>
     <script src="./app.module.js" charset="utf-8"></script>
@@ -14,8 +15,14 @@
     <script src="./app/singleView/single.component.js" charset="utf-8"></script>
     <script src="./app/singleView/single.controller.js" charset="utf-8"></script>
   </head>
-  <body class="container">
-    <h1>Deja Vu Fromage!</h1>
-
+  <body>
+    <nav id="this-nav" class="navbar navbar-inverse navbar-fixed-top">
+      <div id="this-container" class="container">
+        <h1>Deja du Fromage</h1>
+      </div>
+    </nav>
+    <main class="container" id="background">
+      <a class="btn btn-danger" ng-route="">Le Fromage!</a>
+    </main>
   </body>
 </html>
