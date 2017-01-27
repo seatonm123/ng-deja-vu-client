@@ -11,6 +11,11 @@
 
     $stateProvider
       .state({
+        name: 'home',
+        url: '/',
+        component: 'home',
+      })
+      .state({
         name: 'allView',
         url: '/cheese',
         component: 'allView',
