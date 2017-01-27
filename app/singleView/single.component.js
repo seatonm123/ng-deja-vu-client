@@ -12,13 +12,14 @@
 
             <div class="well">
               <div class="media-left" id="sidebyside">
-                <img class="media-object" ng-src="{{$ctrl.image}}">
-                <img class="media-object" ng-src="./Headshots/{{$ctrl.headshots[$ctrl.randomHead]}}" alt="">
+                <img id="cheese-img" class="media-object" ng-src="{{$ctrl.image}}">
+                <img id="head-img" class="media-object" ng-src="./Headshots/{{$ctrl.headshots[$ctrl.randomHead]}}" alt="">
               </div>
               <div class="media-body">
-                <h1 class="media-heading">
-                  text here
+                <h1 class="media-heading text-center">
+                  {{$ctrl.phrases[$ctrl.randomFrench]}}
                 </h1>
+                <button class="btn btn-primary" ui-sref="allView">Back</button>
               </div>
             </div>
 
