@@ -1,0 +1,26 @@
+(function() {
+  'use strict';
+
+  angular.module('app').config(config)
+
+  config.$inject = ['$stateProvider', '$urlRouterProvider', '$locationProvider'];
+
+  function config($stateProvider, $urlRouterProvider, $locationProvider){
+
+    $locationProvider.html5Mode(true);
+
+    $stateProvider
+      .state({
+        name: 'allView',
+        url: '/cheese',
+        component: 'allView',
+      })
+      .state({
+        name: 'single',
+        url: '/cheese/{postId:int}',
+        component: 'newView'
+      });
+
+  }
+
+}());
