@@ -12,8 +12,8 @@
 
             <div class="well">
               <div class="media-left" id="sidebyside">
-                <img class="media-object" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRN6BPbG2aT32bntbld39eK7dkIFAoJIY45WQO31cGiR9oRtEgVApMmc9Y">
-                <img class="media-object" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRN6BPbG2aT32bntbld39eK7dkIFAoJIY45WQO31cGiR9oRtEgVApMmc9Y" alt="">
+                <img class="media-object" ng-src="{{$ctrl.image}}">
+                <img class="media-object" ng-src="./Headshots/{{$ctrl.headshots[$ctrl.randomHead]}}" alt="">
               </div>
               <div class="media-body">
                 <h1 class="media-heading">
