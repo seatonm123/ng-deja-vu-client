@@ -12,7 +12,7 @@
       'Aaron-Goodman.jpg', 'Andrew-Biviano.jpg', 'Andy-Herzog.jpg', 'Cass-Torske.jpg', 'Chana-Reynolds.jpg', 'Chris-Houdlette.jpg', 'Cole-Batson.jpg', 'Daisha-Walton.jpg',
       'Darren-Hankins.jpg', 'Dillon-Corkran.jpg', 'Guillermo-Moratorio.jpg', 'Ike-Obidike.jpg', 'Jeremy-Clayton.jpg', 'Jordan-Storz.jpg', 'Kevin-Erickson.jpg',
       'Luke-McCrae.jpg', 'Mark-Grant.jpg', 'Matt-Seaton.jpg', 'Matt-Winzer.jpg', 'Mike-Dowd.jpg', 'Mike-Roque.jpg', 'Mr-Kyle-Coberly.jpg', 'Murph-Grainger.jpg',
-      'Phil-Cunnell.jpg', 'Roberto-Ortega.jpg', 'Steven-Castroverde.jpg', 'Tyler-Briske.jpg', 'Zac-Jocelyn.jpg'
+      'Phil-Cunnell.jpg', 'Roberto-Ortega.jpg', 'Steven-Castroverde.jpg', 'Tyler-Briske.jpg', 'Zac-Jocelyn.jpg', 'spotagain.png', 'thing.png', 'thing2.png', 'thing3.png', 'uxplor.png'
     ];
 
     vm.phrases = [
