@@ -18,12 +18,12 @@
       .state({
         name: 'allView',
         url: '/cheese',
-        component: 'allView',
+        component: 'viewAll',
       })
       .state({
         name: 'single',
         url: '/cheese/{postId:int}',
-        component: 'newView'
+        component: 'singleView'
       });
 
   }

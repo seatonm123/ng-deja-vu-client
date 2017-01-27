@@ -12,8 +12,9 @@
       $http.get('http://localhost:3000/cheese')
         .then((response) => {
           vm.data = response.data;
+          console.log(vm.data);
         });
-      
+
     };
 
   }

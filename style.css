@@ -18,3 +18,7 @@ a {
 #this-vid {
   display: none;
 }
+
+img {
+  max-width: 25em;
+}
